@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
+
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
 
 </head>
 <body>
-  <h1>Let's play peekaboo with Timothee!</h1>
-  <div class="hidden">
-    <p><span class="clickable">Click here</span> to show Timothee</p>
-    <img src="img/chad.jpg">
+  <div class="container">
+    <h1>Peek-a-boo</h1>
+      <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an innocent children's pastime, you may change your mind when you learn of its treacherous history.</p>
+
+    <div id="walrus-hidden">
+      <p>Let's play peek-a-boo. <span class="clickable-1">Click here</span> to see the surprise!</p>
+    </div>
+
+    <div id="walrus-showing">
+      <p>What a cute walrus! <span class="clickable-1">Click here</span> to hide him again.</p>
+      <img src="img/chad.jpg">
+    </div>
+
+    <div id="walrus-hidden-2">
+      <p>Let's play peek-a-boo. <span class="clickable-2">Click here</span> to see the surprise!</p>
+    </div>
+
+    <div id="walrus-showing-2">
+      <p>What a cute walrus! <span class="clickable-2">Click here</span> to hide him again.</p>
+      <img src="img/timothee-dune.jpg">
+    </div>
+
   </div>
-  <div class="hidden">
-    <p><span class="clickable">Guess who?</span></p>
-    <img src="img/timothee-vfpic.jpg">
-  </div>
-  <div class="hidden">
-    <p><span class="clickable">What's he doing now?</span></p>
-    <img src="img/timothee-dune.jpg">
-  </div>
-</body>  
+</body>
 </html>
